@@ -107,3 +107,43 @@ input[type=text]{
 input[type=text]:hover{
 	opacity:1;
 }
+
+input[type=text]:focus{
+	opacity:1;
+	outline: none;
+	border: 1px solid #4285f4;
+}
+
+button[type=submit]{
+	position: absolute;
+	top:393px;
+	left:510px;
+	width: 125.750px;
+	height: 36px;
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	font-weight: bold;
+	font-family: arial,sans-serif;
+	cursor: default;
+	outline:none;
+	color: #757575;
+}
+
+button[type=submit]:hover{
+	border: 1px solid #C9C7C7;
+	color: black;
+}
+
+#lucky button[type=submit]{
+		top:393px;
+		left:644px;
+		width:142.578px;
+}
+
+#mic img{
+	position: absolute;
+	top:326px;
+	right:360px;
+    height: 25px;
+    width: 25px;
+}
