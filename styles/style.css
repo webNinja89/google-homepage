@@ -1,14 +1,12 @@
-*{
-	border: 1px solid black;
-}
 
+/*******Head*******/		
 body{
+	position: relative;
 	margin:0;
 	padding:0;
 }
 .header{
 	position: relative;
-	border: 2px solid black;
 	height: 70px	;
 	width: 100%;
 }
@@ -85,4 +83,27 @@ a{
 		right:218px;
 }
 
-		
+/*******Body*******/
+
+#logo img{
+	position: absolute;
+	left:0;
+	right:0;
+	margin: auto;
+	top:198px;
+}
+
+input[type=text]{
+	position: absolute;
+	width: 585px;
+	height: 34px;
+	left:0;
+	right:0;
+	margin: auto;
+	top:320px;
+	opacity:0.5;
+}
+
+input[type=text]:hover{
+	opacity:1;
+}
