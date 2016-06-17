@@ -1,6 +1,7 @@
 
 /*******Header*******/		
 body{
+	position: relative;
 	margin:0;
 	padding:0;
 }
@@ -150,49 +151,13 @@ button[type=submit]:hover{
 
 .footer{
 	position: absolute;
-	bottom:0;	
+	bottom:10;	
 	width:100%;
 	height:40px;
 	background-color: #f2f2f2;
-	border-top: 1px solid #e4e4e4;
 	text-decoration: none;
 	font-family: arial,sans-serif;
 	font-size: 13px;
 	color:#757575;
+	border: 1px solid black;
 }
-
-.footerpart{
-	position: absolute;
-	bottom: 15px;
-	color:#757575;;
-}
-
-#ad{
-	left:35px;
-}
-
-#bsns{
-	left:130px;
-}
-
-#abt{
-	left:210px;
-}
-
-#priv{
-	right:330px;
-}
-
-#trms{
-	right:260px;
-}
-#set{
-	right:180px;
-}
-
-#use{
-	right:35px;
-}
-
-/*****************/
-
