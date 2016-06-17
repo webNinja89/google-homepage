@@ -161,11 +161,16 @@ button[type=submit]:hover{
 	color:#757575;
 }
 
+.footer a:hover{
+	text-decoration:underline;
+}
+
 .footerpart{
 	position: absolute;
 	bottom: 15px;
-	color:#757575;;
+	color:#757575;
 }
+
 
 #ad{
 	left:35px;
